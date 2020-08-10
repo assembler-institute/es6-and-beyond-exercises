@@ -1,0 +1,35 @@
+.list {
+  margin: 0;
+  padding: 0;
+}
+
+.list--body li {
+  list-style-type: disc;
+  margin-left: 16px;
+}
+
+.index-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.list-item-index {
+  display: inline-flex;
+  margin-right: 32px;
+  margin-top: 16px;
+}
+
+.list-item {
+  display: inline-block;
+  margin-right: 12px;
+  margin-bottom: 12px;
+}
+
+code {
+  font-size: 16px;
+  color: darkorchid;
+  padding: 4px;
+  background-color: aliceblue;
+}

@@ -1,0 +1,32 @@
+{
+    "name": "es6-and-beyond",
+    "version": "1.0.0",
+    "description": "es6-and-beyond",
+    "keywords": [],
+    "author": "Dani Lucaci <dani@assemblerschool.com>",
+    "license": "MIT",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest --watchAll",
+        "start": "parcel index.html --open"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://code.assemblerschool.com/dani/es6-and-beyond.git"
+    },
+    "dependencies": {
+        "@babel/core": "^7.11.1",
+        "@babel/preset-env": "^7.11.0",
+        "@types/jest": "^26.0.9",
+        "babel-jest": "^26.2.2",
+        "jest": "^26.2.2",
+        "parcel-bundler": "^1.12.4"
+    },
+    "devDependencies": {
+        "babel-eslint": "^10.0.3",
+        "eslint": "^6.7.2"
+    },
+    "browserslist": [
+        "since 2017-06"
+    ]
+}
