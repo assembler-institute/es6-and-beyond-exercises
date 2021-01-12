@@ -12,7 +12,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://code.assemblerschool.com/dani/es6-and-beyond.git"
+        "url": "https://github.com/assembler-school/es6-and-beyond-exercises.git"
     },
     "dependencies": {
         "@babel/core": "^7.11.1",
