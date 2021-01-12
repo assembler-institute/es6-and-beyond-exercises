@@ -41,7 +41,14 @@
  */
 
 // Finish the code of the function
-function exercise02() {}
+function exercise02({
+    firstName = "Default firstName",
+    lastName = "Default lastName",
+}) {
+    const string = `Hello I am ${firstName} ${lastName}`;
+
+    return string;
+}
 
 // Don’t change the code bellow this line
 import setup02Exercise from "./02-exercise-setup";
