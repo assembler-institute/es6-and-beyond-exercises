@@ -18,7 +18,7 @@
 // Finish the code of the function
 function exercise11(array, entry) {
     return array.find((element) => {
-        if (element == entry) return element;
+        return element == entry;
     });
 }
 
