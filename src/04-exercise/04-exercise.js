@@ -17,7 +17,11 @@
  */
 
 // Finish the code of the function
-function exercise04() {}
+function exercise04(arr) {
+    let [a,b,c] = arr;
+
+    return b;
+}
 
 // Don’t change the code bellow this line
 import setup04Exercise from "./04-exercise-setup";
