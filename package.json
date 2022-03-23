@@ -1,32 +1,45 @@
 {
-    "name": "es6-and-beyond",
-    "version": "1.0.0",
-    "description": "es6-and-beyond",
-    "keywords": [],
-    "author": "Dani Lucaci <dani@assemblerschool.com>",
-    "license": "MIT",
-    "main": "index.js",
-    "scripts": {
-        "test": "jest --watchAll",
-        "start": "parcel index.html --open"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/assembler-school/es6-and-beyond-exercises.git"
-    },
-    "dependencies": {
-        "@babel/core": "^7.11.1",
-        "@babel/preset-env": "^7.11.0",
-        "@types/jest": "^26.0.9",
-        "babel-jest": "^26.2.2",
-        "jest": "^26.2.2",
-        "parcel-bundler": "^1.12.4"
-    },
-    "devDependencies": {
-        "babel-eslint": "^10.0.3",
-        "eslint": "^6.7.2"
-    },
-    "browserslist": [
-        "since 2017-06"
+  "name": "es6-and-beyond",
+  "version": "1.1.0",
+  "description": "es6-and-beyond",
+  "keywords": [],
+  "author": "Dani Lucaci <dani@assemblerschool.com>",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "test": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/assembler-institute/es6-and-beyond-exercises.git"
+  },
+  "browserslist": [
+    "since 2017-06"
+  ],
+  "dependencies": {
+    "@babel/core": "7.17.8",
+    "@babel/preset-env": "7.16.11",
+    "@types/jest": "27.4.1",
+    "babel-jest": "27.5.1",
+    "jest": "27.5.1",
+    "parcel": "2.4.0"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "7.17.0",
+    "eslint": "8.11.0",
+    "jest-transform-stub": "2.0.0"
+  },
+  "jest": {
+    "testEnvironment": "jsdom",
+    "transform": {
+      ".+\\.(css|styl|less|sass|scss|png|jpg|ttf|woff|woff2)$": "jest-transform-stub",
+      "^.+\\.js$": "babel-jest"
+    }
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
     ]
+  }
 }
