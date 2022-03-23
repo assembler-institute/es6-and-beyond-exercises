@@ -1,13 +1,13 @@
-`#es6` `#assembler-school` `#master-in-software-engineering`
+`#es6` `#assembler-institute` `#master-in-software-engineering`
 
-# Assembler School: ES6 Workshop Exercises
+# Assembler Institute: ES6 Workshop Exercises
 
 ## Getting Started
 
 First, you will need to clone the repo:
 
 ```bash
-$ git clone https://github.com/assembler-school/es6-and-beyond-exercises.git
+$ git clone https://github.com/assembler-institute/es6-and-beyond-exercises.git
 ```
 
 Then, you will have to install all the dependencies with npm:
