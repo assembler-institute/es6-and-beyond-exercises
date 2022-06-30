@@ -74,7 +74,6 @@ class Employee extends Person{
 // Store the new instance in the `ana` variable
 let ana = new Employee("Ana", "Spark", "Developer");
 
-
 // Don’t change the code bellow this line
 export { Person, Employee, ana };
 
