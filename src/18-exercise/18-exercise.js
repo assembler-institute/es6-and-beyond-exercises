@@ -19,7 +19,11 @@
  */
 
 // Finish the code of the function
-function exercise18() {}
+async function exercise18() {
+    const req = await fetch('https://jsonplaceholder.typicode.com/users/1');
+    const res = await req.json();
+    displayContents(res);
+}
 
 // Don’t change the code bellow this line
 function displayContents(data) {

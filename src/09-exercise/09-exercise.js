@@ -17,7 +17,12 @@ function exercise09() {
         ["Thursday"],
         ["Friday"],
     ];
+  
+    const newArrayDays = days.flat();
+    return newArrayDays;
 }
+
+exercise09();
 
 // Don’t change the code bellow this line
 import setup09Exercise from "./09-exercise-setup";
