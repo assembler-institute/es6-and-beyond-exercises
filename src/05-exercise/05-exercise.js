@@ -24,7 +24,10 @@
  */
 
 // Finish the code of the function
-function exercise05() {}
+function exercise05(weekDays) {
+    const [, second = "DEFAULT"] = weekDays;
+    return second;
+}
 
 // Don’t change the code bellow this line
 import setup05Exercise from "./05-exercise-setup";
