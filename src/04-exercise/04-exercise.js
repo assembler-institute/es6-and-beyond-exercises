@@ -17,7 +17,7 @@
  */
 
 // Finish the code of the function
-function exercise04([a, b, c]) {
+function exercise04([a, b, c, d, e]) {
     return b;
 }
 
