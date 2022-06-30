@@ -41,7 +41,10 @@
  */
 
 // Finish the code of the function
-function exercise02() {}
+function exercise02() {
+    const { firstName, lastName } = person;
+    return `Hello I am ${firstName} ${lastName}`;
+}
 
 // Don’t change the code bellow this line
 import setup02Exercise from "./02-exercise-setup";

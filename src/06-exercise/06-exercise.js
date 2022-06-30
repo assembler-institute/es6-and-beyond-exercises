@@ -26,6 +26,9 @@ function exercise06() {
         company: "Assembler School",
         averageGrade: 6.6,
     };
+    const { firstName, lastName, ...rest } = user;
+
+    return rest; //Why if I do console.log(rest) don't print nothing?
 }
 
 // Don’t change the code bellow this line
