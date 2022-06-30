@@ -5,5 +5,3 @@ function setup16Exercise(exercise16) {
         exercise16();
     }
 }
-
-export default setup16Exercise;
