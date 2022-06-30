@@ -17,7 +17,12 @@
  */
 
 // Finish the code of the function
-function exercise04() {}
+function exercise04(
+    weekNames = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
+) {
+    const [first, second, third] = weekNames;
+    return second;
+}
 
 // Don’t change the code bellow this line
 import setup04Exercise from "./04-exercise-setup";
