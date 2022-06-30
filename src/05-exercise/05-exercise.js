@@ -24,7 +24,10 @@
  */
 
 // Finish the code of the function
-function exercise05() {}
+function exercise05(array) {
+    const [firstEl, secondEl = "DEFAULT", thirdEl] = array;
+    return secondEl;
+}
 
 // Don’t change the code bellow this line
 import setup05Exercise from "./05-exercise-setup";

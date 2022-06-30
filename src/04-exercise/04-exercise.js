@@ -17,7 +17,10 @@
  */
 
 // Finish the code of the function
-function exercise04() {}
+function exercise04(array) {
+    const [, secondEl, ...rest] = array;
+    return secondEl;
+}
 
 // Don’t change the code bellow this line
 import setup04Exercise from "./04-exercise-setup";
