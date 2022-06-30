@@ -25,7 +25,9 @@
  */
 
 // Finish the code of the function
-const exercise03 = () => {};
+const exercise03 = (arr1, arr2, ...arr) => {
+    return arr;
+};
 
 // Don’t change the code bellow this line
 import setup03Exercise from "./03-exercise-setup";
