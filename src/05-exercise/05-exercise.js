@@ -24,7 +24,12 @@
  */
 
 // Finish the code of the function
-function exercise05() {}
+function exercise05(
+    weekNames = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
+) {
+    const [first, second = "DEFAULT", third] = weekNames;
+    return second;
+}
 
 // Don’t change the code bellow this line
 import setup05Exercise from "./05-exercise-setup";
