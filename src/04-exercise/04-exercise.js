@@ -17,7 +17,10 @@
  */
 
 // Finish the code of the function
-function exercise04() {}
+function exercise04(days=["1", "2", "3", "4", "5"]) {
+  const [uno, dos, tres] = days;
+  return dos;
+}
 
 // Don’t change the code bellow this line
 import setup04Exercise from "./04-exercise-setup";

@@ -17,6 +17,9 @@ function exercise09() {
         ["Thursday"],
         ["Friday"],
     ];
+    const menosGrapitas = days.flat();
+    return menosGrapitas;
+    
 }
 
 // Don’t change the code bellow this line
