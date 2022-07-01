@@ -16,8 +16,13 @@
  */
 
 // Finish the code of the function
-function exercise12() {}
-
+function exercise12(array, entry) {
+    return array.includes(entry);
+}
+exercise12(
+    ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+    "SOME OTHER DAY"
+)
 // Don’t change the code bellow this line
 import setup12Exercise from "./12-exercise-setup";
 
