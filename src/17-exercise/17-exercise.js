@@ -21,8 +21,13 @@
  */
 
 // Finish the code of the function
-function exercise17() {}
+function exercise17() {
+     fetch("https://jsonplaceholder.typicode.com/users/1")
+     .then ((request)=>request.json())
+     .then ((response)=> displayContents(response))
 
+
+}
 // Don’t change the code bellow this line
 function displayContents(data) {
     const wrapper = document.querySelector(".ex-wrapper");
