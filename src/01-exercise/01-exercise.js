@@ -17,6 +17,7 @@
 
 // Finish the code of the function
 function exercise01(a, b) {
+    
     return a * b;
 }
 

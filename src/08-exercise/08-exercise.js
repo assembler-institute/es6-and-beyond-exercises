@@ -11,9 +11,6 @@
 
 // Finish the code of the function   //I didn't declare func so i was losing time to understand, to call it with arrow function, first we need to change the function execution of func.
 function exercise08() {
-    function func(a, b) {
-        return a + b;
-    }
     const func = (a, b) => {
         return a + b;
     };

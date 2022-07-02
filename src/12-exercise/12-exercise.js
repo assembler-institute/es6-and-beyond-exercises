@@ -16,16 +16,12 @@
  */
 
 // Finish the code of the function
-function exercise12() {
-const fn = ["array", "entry"];
-console.log(fn.includes("entry"));
+function exercise12(array, entry) {
+    const result = array.includes(entry);
+    return result;
 }
-
-
-
 // Don’t change the code bellow this line
 import setup12Exercise from "./12-exercise-setup";
-
 if (process.env.NODE_ENV !== "test") {
     setup12Exercise(() =>
         console.log(
@@ -36,5 +32,4 @@ if (process.env.NODE_ENV !== "test") {
         )
     );
 }
-
 export default exercise12;

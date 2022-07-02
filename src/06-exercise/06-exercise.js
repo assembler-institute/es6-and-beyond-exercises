@@ -28,9 +28,8 @@ function exercise06() {
     };
     const { firstName, lastName, ...rest } = user;
 
-    return rest; //Why if I do console.log(rest) don't print nothing?
+    return rest;
 }
-
 // Don’t change the code bellow this line
 import setup06Exercise from "./06-exercise-setup";
 

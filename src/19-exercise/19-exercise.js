@@ -1,4 +1,4 @@
-/**
+**
  * Exercise 19:
  *
  * 1. Create a class named `Person` that takes in as parameters
@@ -17,7 +17,12 @@
  */
 
 // Create the Person class
-class Person {}
+class Person {
+    constructor(firstName, lastName) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+    }
+}
 
 // Create a new instance of the class with the arguments:
 //
@@ -25,13 +30,12 @@ class Person {}
 // lastName: "Spark"
 //
 // Store the new instance in the `ana` variable
-let ana = "";
+let ana = new Person("Ana", "Spark");
 
 // Don’t change the code bellow this line
 export { Person, ana };
 
 import setup19Exercise from "./19-exercise-setup";
-
-if (process.env.NODE_ENV !== "test") {
-    setup19Exercise(() => console.log(ana));
 }
+
+// I dont understand this one...

@@ -11,10 +11,8 @@
 // Finish the code of the function
 function exercise10() {
     const message = "hello-world";
-
-    const array = Array.from(message);
-
-    return message;
+    const arr = Array.from(message);
+    return arr;
 }
 // Don’t change the code bellow this line
 import setup10Exercise from "./10-exercise-setup";
