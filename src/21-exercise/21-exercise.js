@@ -66,3 +66,4 @@ if (process.env.NODE_ENV !== "test") {
     setup21Exercise(() => console.log(ana.sayName()));
     setup21Exercise(() => console.log(ana.getJobTitle()));
 }
+// I dont understand this one...

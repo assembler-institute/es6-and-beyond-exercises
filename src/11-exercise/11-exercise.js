@@ -16,11 +16,12 @@
  */
 
 // Finish the code of the function
-function exercise11() {}
-
+function exercise11(array, entry) {
+    const result = array.find((el) => el === entry);
+    return result;
+}
 // Don’t change the code bellow this line
 import setup11Exercise from "./11-exercise-setup";
-
 if (process.env.NODE_ENV !== "test") {
     setup11Exercise(() =>
         console.log(
@@ -31,5 +32,4 @@ if (process.env.NODE_ENV !== "test") {
         )
     );
 }
-
 export default exercise11;

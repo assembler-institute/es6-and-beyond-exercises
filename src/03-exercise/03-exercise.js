@@ -25,8 +25,21 @@
  */
 
 // Finish the code of the function
-const exercise03 = () => {};
+const exercise03 = (a, b, ...rest) => {
+    return rest;
+};
 
+// I thought was this the solution :
+// const exercise03 = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
+// console.log(exercise03);
+
+// function args = ("Monday", "Tuesday", "...rest") => {
+//     console.log("Monday");
+//     console.log("Tusday");
+//     console.log("...rest");
+// };
+
+// args ("Monday", "Tuesday", "Wednesday", "Thursday", "Friday");
 // Don’t change the code bellow this line
 import setup03Exercise from "./03-exercise-setup";
 
