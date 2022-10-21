@@ -11,9 +11,8 @@
 
 // Finish the code of the function
 function exercise08() {
-    function func(a, b) {
-        return a + b;
-    }
+    const func = (a, b) => a + b;
+    
 
     // Don’t change the code bellow this line
     return func;
