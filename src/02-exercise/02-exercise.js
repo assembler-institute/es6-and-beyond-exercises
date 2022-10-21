@@ -42,8 +42,8 @@
 
 // Finish the code of the function
 function exercise02(person = {firstName, lastName}) {
-    const {defaultfirstName = "Ana", defaultlastName = "Marks" } = person;
-    return `Hello I am ${defaultfirstName} ${defaultlastName}`;
+    const {firstName = 'Default firstName', lastName = 'Default lastName'} = person;
+    return `Hello I am ${firstName} ${lastName}`;
 }
 
 // Don’t change the code bellow this line
