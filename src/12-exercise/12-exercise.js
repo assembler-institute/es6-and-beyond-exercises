@@ -16,7 +16,10 @@
  */
 
 // Finish the code of the function
-function exercise12() {}
+function exercise12(array, entry) {
+    let example = array.includes(entry);
+    return example;
+}
 
 // Don’t change the code bellow this line
 import setup12Exercise from "./12-exercise-setup";
