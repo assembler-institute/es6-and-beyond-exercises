@@ -1,4 +1,4 @@
-import { Person, Employee, ana, newAna} from "../21-exercise/21-exercise";
+import { Person, Employee, ana, peter} from "../21-exercise/21-exercise";
 
 describe("21-exercise", function () {
     test("create a class Employee that extends the Person class", async () => {
@@ -7,22 +7,22 @@ describe("21-exercise", function () {
             lastName: "Spark",
         };
 
-        const expectedNewAna = {
-            firstName: "Ana",
-            lastName: "Spark",
+        const expectedPeter = {
+            firstName: "Peter",
+            lastName: "Jackson",
             jobTitle: "Developer",
         };
 
         expect(expectedAna).toEqual(ana);
-        expect(expectedNewAna).toEqual(newAna);
+        expect(expectedPeter).toEqual(peter);
 
         expect(ana.sayName()).toEqual(`Ana Spark`);
 
-        expect(newAna.sayName()).toEqual(`Ana Spark`);
-        expect(newAna.getJobTitle()).toEqual(`Developer`);
+        expect(peter.sayName()).toEqual(`Peter Jackson`);
+        expect(peter.getJobTitle()).toEqual(`Developer`);
 
         expect(ana).toBeInstanceOf(Person);
-        expect(newAna).toBeInstanceOf(Employee);
+        expect(peter).toBeInstanceOf(Employee);
 
     });
 });

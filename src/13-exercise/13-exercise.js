@@ -12,5 +12,3 @@
  *
  * export const test = 1;
  */
-
-export const BASE_URL = "https://jsonplaceholder.typicode.com/users";
