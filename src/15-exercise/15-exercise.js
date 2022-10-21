@@ -14,3 +14,9 @@
  *
  * export default test;
  */
+
+function divide (n, m) {
+    return n / m;
+}    
+
+export default divide;
