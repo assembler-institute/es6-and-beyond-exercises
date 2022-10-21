@@ -17,7 +17,8 @@
 
 // Finish the code of the function
 function exercise11(array, entry) {
-    return array.find((e) => e === entry);
+    const a = array.find((e) => e === entry);
+    return a;
 }
 
 // Don’t change the code bellow this line

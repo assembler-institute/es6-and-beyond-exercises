@@ -43,23 +43,24 @@
 
 // Create the Person class
 class Person {
-    constructor (firstName, lastName, jobTitle) {
+    constructor (firstName, lastName) {
         this.firstName = firstName;
         this.lastName = lastName;
-        this.jobTitle = jobTitle; 
     }
     sayName() {
         return `${this.firstName} ${this.lastName}`;
     }
-    getJobTitle() {
-        return this.jobTitle;
-    }
+
 }
 
 // Create the Employee class that extends the Person class
 class Employee extends Person {
     constructor (firstName, lastName, jobTitle) {
-        super(firstName, lastName, jobTitle);
+        super(firstName, lastName);
+        this.jobTitle = jobTitle;
+    }
+    getJobTitle(){
+        return this.jobTitle;
     }
 }
 
@@ -69,15 +70,21 @@ class Employee extends Person {
 // lastName: "Spark"
 // jobTitle: "Developer"
 //
-// Store the new instance in the `ana` variable
-const ana = new Employee ('Ana', 'Spark', 'Developer');
-// Don’t change the code bellow this line
-export { Person, Employee, ana };
+// Store the new instance in the `newAna` variable
+const ana = new Person ('Ana', 'Spark');
+const newAna = new Employee ('Ana', 'Spark', 'Developer');
 
+
+// Don’t change the code bellow this line
+export { Person, Employee, ana, newAna };
+
+import { removeUnnecessaryItems } from "@babel/preset-env/lib/filter-items";
 import setup21Exercise from "./21-exercise-setup";
 
 if (process.env.NODE_ENV !== "test") {
-    setup21Exercise(() => console.log(ana));
+    setup21Exercise(() => console.log(newAna));
     setup21Exercise(() => console.log(ana.sayName()));
     setup21Exercise(() => console.log(ana.getJobTitle()));
+    setup21Exercise(() => console.log(ana));
+    setup21Exercise(() => console.log(ana.sayName()));
 }
