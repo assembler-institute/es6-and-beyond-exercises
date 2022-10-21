@@ -6,7 +6,7 @@ describe("11-exercise", function () {
     const days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
     const dayToFind = days[2];
 
-    const nums = [1, 20, 3, 5, 4, 5];
+    const nums = [1, 20, 3, 5, 4];
     const numToFind = nums[3];
 
     const ages = [22, 26, 55, 25, 5];
