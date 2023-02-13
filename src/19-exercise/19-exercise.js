@@ -35,3 +35,4 @@ import setup19Exercise from "./19-exercise-setup";
 if (process.env.NODE_ENV !== "test") {
     setup19Exercise(() => console.log(ana));
 }
+

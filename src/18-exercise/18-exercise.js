@@ -19,7 +19,7 @@
  */
 
 // Finish the code of the function
-function exercise18() {}
+async function exercise18() {}
 
 // Don’t change the code bellow this line
 function displayContents(data) {
