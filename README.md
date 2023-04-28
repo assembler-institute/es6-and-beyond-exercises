@@ -16,9 +16,15 @@ Then, you will have to install all the dependencies with npm:
 $ npm install
 ```
 
+Finally, you will have to start the tests:
+
+```bash
+$ npm start
+```
+
 ## Exercises
 
-Open the files in the `src/` folder and follow the instructions.
+Once the test is initialized, open the files in the `src/` folder and follow the instructions of each exercise. When you finish the code in the exercise you can run npx jest 01 for the exercise-01, npx jest 05 for the exercise-05...
 
 ## Author <!-- omit in toc -->
 
