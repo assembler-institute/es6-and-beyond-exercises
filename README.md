@@ -24,7 +24,7 @@ $ npm start
 
 ## Exercises
 
-Once the test is initialized, open the files in the `src/` folder and follow the instructions of each exercise. When you finish the code in the exercise you can run npx jest 01 for the exercise-01, npx jest 05 for the exercise-05...
+Once the test is initialized, open the exercise js files in the `src/` folder and follow the instructions of each exercise. When you finish the code in the exercise, you can run ```npx jest 01``` for the exercise-01, ```npx jest 05``` for the exercise-05... This npx command must be run in a new console on the root exercises folder.
 
 ## Author <!-- omit in toc -->
 
