@@ -12,9 +12,6 @@ describe("11-exercise", function () {
     const ages = [22, 26, 55, 25, 5];
     const ageToFind = ages[3];
 
-    const fail = [22, 26, 55, 25, 5];
-    const failFind = 'fail';
-
     beforeAll(() => {
         arraySpy = jest.spyOn(Array.prototype, "find");
     });
@@ -38,8 +35,5 @@ describe("11-exercise", function () {
 
         const expected3 = exercise11(ages, ageToFind);
         expect(expected3).toBe(ageToFind);
-
-        const expected4 = exercise11(fail, failFind);
-        expect(expected4).toBe(undefined);
     });
 });

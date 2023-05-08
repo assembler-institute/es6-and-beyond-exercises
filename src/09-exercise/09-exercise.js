@@ -17,6 +17,7 @@ function exercise09() {
         ["Thursday"],
         ["Friday"],
     ];
+    return days.flat(Infinity)
 }
 
 // Don’t change the code bellow this line

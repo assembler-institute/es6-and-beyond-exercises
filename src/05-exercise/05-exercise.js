@@ -24,7 +24,15 @@
  */
 
 // Finish the code of the function
-function exercise05() {}
+function exercise05(...props) {
+    const { a, b = "DEFAULT", c, ...rest } = props[0];
+
+    if (props[0][1] != undefined) {
+        return props[0][1];
+    } else {
+        return b;
+    }
+}
 
 // Don’t change the code bellow this line
 import setup05Exercise from "./05-exercise-setup";
